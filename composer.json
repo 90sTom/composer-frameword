@@ -16,6 +16,8 @@
         "classmap":["lib/"],
         "files":["/src/bootstart.php"]
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "extra":{
+    }
 }
 
