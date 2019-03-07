@@ -1,0 +1,14 @@
+{
+    "name": "yang-xiao-hui/framework",
+    "description": "is composer framework project",
+    "type": "library",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Yang",
+            "email": "2781568757@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
