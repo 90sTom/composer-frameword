@@ -15,7 +15,7 @@ namespace YangXiaoHui;
  */
 class Version
 {
-    protected $version = "1.0.0";
+    protected static $version = "1.0.0";
     
     public static function getVersion(){
         return self::$version;
