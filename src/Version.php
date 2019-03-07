@@ -18,6 +18,6 @@ class Version
     protected $version = "1.0.0";
     
     public static function getVersion(){
-        return $this->version;
+        return self::$version;
     }
 }
