@@ -20,9 +20,9 @@ class CreatePorject extends LibraryInstaller
     /**
      * {@inheritDoc}
      */
-    public function getPackageBasePath(PackageInterface $package)
+    public function getInstallPath(PackageInterface $package)
     {
-        return 'project';
+        return 'test';
     }
 
 
@@ -31,6 +31,6 @@ class CreatePorject extends LibraryInstaller
      */
     public function supports($packageType)
     {
-        return 'yang-project' === $packageType;
+        return true;
     }
 }
