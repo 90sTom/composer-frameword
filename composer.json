@@ -14,7 +14,7 @@
             "YangXiaoHui\\":""
         },
         "classmap":["lib/"],
-        "files":["bootstart.php"]
+        "files":["/src/bootstart.php"]
     },
     "minimum-stability": "dev"
 }
