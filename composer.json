@@ -9,6 +9,12 @@
             "email": "2781568757@qq.com"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {}
+    "autoload":{
+        "psr-4":{
+            "YangXiaoHui\\":""
+        },
+        "classmap":["lib/"],
+        "files":["bootstart.php"]
+    },
+    "minimum-stability": "dev"
 }
