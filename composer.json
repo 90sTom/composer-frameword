@@ -9,10 +9,7 @@
             "email": "2781568757@qq.com"
         }
     ],
-    "require":{
-        "composer-plugin-api": "1.1.0",
-        "composer/composer":"1.8.4"
-    },
+    "require":{ },
     "autoload":{
         "psr-4":{
             "YangXiaoHui\\":["src/"]
@@ -21,7 +18,6 @@
         "files":["/src/bootstart.php"]
     },
     "minimum-stability": "dev",
-    "extra":{
-    }
+    "extra":{}
 }
 
