@@ -9,7 +9,9 @@
             "email": "2781568757@qq.com"
         }
     ],
-    "require":{ },
+    "require":{
+        "composer/composer":"1.8.4"
+    },
     "autoload":{
         "psr-4":{
             "YangXiaoHui\\":["src/"]
